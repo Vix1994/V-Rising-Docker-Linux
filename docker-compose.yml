@@ -7,7 +7,7 @@ services:
       - /home/googlrr/VRisingServer:/root/.wine/drive_c/users/root/AppData/LocalLow/Stunlock Studios/VRisingServer/Saves
       - /home/googlrr/VRisingSettings:/root/.wine/drive_c/users/root/AppData/LocalLow/Stunlock Studios/VRisingServer/Settings/
     ports: 
-      - "27015:27015/udp"
-      - "27016:27016/udp"
+      - "9876:9876/udp"
+      - "9877:9877/udp"
     restart: unless-stopped
     tty: true

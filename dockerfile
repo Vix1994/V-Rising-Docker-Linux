@@ -17,7 +17,7 @@ WORKDIR /scripts
 
 RUN chmod +x ./run.sh
 
-EXPOSE 27015/udp
-EXPOSE 27016/udp
+EXPOSE 9876/udp
+EXPOSE 9877/udp
 
 CMD ./run.sh
